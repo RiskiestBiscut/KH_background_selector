@@ -29,14 +29,106 @@ body {
 /******************************************
 /* LAYOUT
 /*******************************************/
-header {
-
+h1, h2{
+  text-align: center;
 }
-
-footer {
-
+img{
+  display: block;
+  height: 300px;
+  margin: 0 auto;
+}
+ul{
+  width: 400px;
+  height: 300px;
+  margin: 0 auto;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+li{
+  width: 100px;
+  height: 100px;
 }
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+#kingdomKey {
+  background: url(../images/kingdomKey_destinyIsland.png);
+  background-size: cover;
+  border: 3px solid black;
+}
+#ladyLuck {
+  background: url(../images/ladyLuck_Alice.png);
+  background-size: cover;
+  border-top: 3px solid black;
+  border-right: 3px solid black;
+  border-bottom: 3px solid black;
+
+}
+
+#oplympia {
+  background: url(../images/Olympia_olympus.jpeg);
+  background-size: cover;
+  border-top: 3px solid black;
+  border-right: 3px solid black;
+  border-bottom: 3px solid black;
+}
+
+#jungleKing {
+  background: url(../images/jungleKing_tarzan.jpeg);
+  background-size: cover;
+  border-top: 3px solid black;
+  border-right: 3px solid black;
+  border-bottom: 3px solid black;
+}
+
+#threeWishes {
+  background: url(../images/threeWishes_agrabah.png);
+  background-size: cover;
+  border-left: 3px solid black;
+  border-right: 3px solid black;
+  border-bottom: 3px solid black;
+}
+
+#pumpkinHead {
+  background: url(../images/pumpkinhead_halloweenTown.png);
+  background-size: cover;
+  border-right: 3px solid black;
+  border-bottom: 3px solid black;
+}
+
+#wishingStar {
+  background: url(../images/wishingStar_Monstro.png);
+  background-size: cover;
+  border-right: 3px solid black;
+  border-bottom: 3px solid black;
+}
+
+#crabClaw {
+  background: url(../images/crabclaw_atlantica.png);
+  background-size: cover;
+  border-right: 3px solid black;
+  border-bottom: 3px solid black;
+}
+
+#divineRose {
+  background: url(../images/divineRose_hollowBastion.jpeg);
+  background-size: cover;
+  border-right: 3px solid black;
+  border-bottom: 3px solid black;
+}
+#fairyHarp {
+  background: url(../images/fairyHarp_neverland.png);
+  background-size: cover;
+  border-left: 3px solid black;
+  border-right: 3px solid black;
+  border-bottom: 3px solid black;
+}
+#spellbinder {
+  background: url(../images/spellbinder_traverseTown.png);
+  background-size: cover;
+  border-right: 3px solid black;
+  border-bottom: 3px solid black;
+}
